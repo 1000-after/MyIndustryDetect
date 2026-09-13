@@ -17,11 +17,11 @@
 | 参数配方 | 模糊核 / 阈值 / 最小最大面积可调；`QSettings` 本地记住 |
 | 结果入库 | `QODBC` + MySQL ODBC → 表 `inspect_record` |
 
-<!-- 截图：把图片放到 docs/images/ 后取消下面注释
+截图：把图片放到 docs/images/ 后取消下面注释
 ![主界面](docs/images/ui.png)
 ![批量结果](docs/images/batch.png)
 ![数据库记录](docs/images/db.png)
--->
+
 
 **演示视频 / GIF（可选）：** 录制 1～3 分钟操作流程后，把链接填在这里。
 
