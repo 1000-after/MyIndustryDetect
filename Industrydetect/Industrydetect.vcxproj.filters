@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{c917983a-e9e1-4854-96d8-037f9c053ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vision">
+      <UniqueIdentifier>{1ac35eaf-0d4e-45b6-9352-082144d5a829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="output">
+      <UniqueIdentifier>{a3f8c2e1-5b7d-4e9a-9c1f-2d6e8b0a4f55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="IndustryDetect.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="IndustryDetect.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="IndustryDetect.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="IndustryDetect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vision\PatchDetector.cpp">
+      <Filter>vision</Filter>
+    </ClCompile>
+    <ClCompile Include="core\ImageConverter.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\InspectPipeline.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\InspectWorker.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="output\InspectDb.cpp">
+      <Filter>output</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="output\InspectDb.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="vision\PatchDetector.h">
+      <Filter>vision</Filter>
+    </ClInclude>
+    <ClInclude Include="core\InspectTypes.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\InspectPipeline.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ImageConverter.h">
+      <Filter>core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="core\InspectWorker.h">
+      <Filter>core</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>

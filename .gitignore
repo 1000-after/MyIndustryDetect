@@ -1,0 +1,39 @@
+# Visual Studio / 构建输出
+.vs/
+**/x64/
+[Dd]ebug/
+[Rr]elease/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.iobj
+*.ipdb
+*.log
+*.tlog
+*.idb
+
+# Qt / VS 用户本地文件
+**/moc/
+**/uic/
+**/rcc/
+**/qmake/
+*.vcxproj.user
+*.suo
+*.user
+
+# 本机 OpenCV 预编译包通常很大，默认不推仓库（见 README 环境要求）
+third_party/opencv/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+*.code-workspace
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 敏感信息
+.env
+secrets.*
+*.pem
